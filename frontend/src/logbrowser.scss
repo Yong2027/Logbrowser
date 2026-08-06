@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+}
+
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+
+.ant-tabs-tab {
+  background-color: #d8d7d7 !important;
+  border: #999 1px solid !important;
+  border-bottom: none !important;
+  padding: 6px !important;
+}
+.ant-tabs-tab-active {
+  background-color: #fff !important;
+}
+.ant-tabs-content {
+  height: 100%;
+}
+.ant-tabs-tabpane {
+  height: 100%;
+}
+.ant-tabs-nav {
+  margin-bottom: 0px !important;
+}
+.footer {
+  background-color: #eaeaea;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  .viewBtn {
+    height: 22px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 0px 6px;
+  }
+  .downBtn {
+    padding: 0px 6px;
+    height: 22px;
+  }
+  .info {
+    font-size: 13px;
+  }
+}
+.ant-dropdown-menu-submenu-title {
+  padding-left: 0px !important;
+}
+
+.ant-dropdown-menu-item {
+  padding-left: 0px !important;
+}
+
+.sider {
+  overflow: auto;
+  border-right: 2px solid #ddd;
+  padding: 20px;
+}
+.search {
+  padding: 10px;
+  // margin-top: 1px;
+  border: 1px #d9d9d9 solid;
+  border-radius: 4px;
+}
+
+.sideIcon {
+  position: absolute;
+  bottom: 50%;
+}
+.icon:hover {
+  color: blue;
+}
+.close:hover {
+  color: red;
+}
+
+.loglines {
+  font-family: 'Courier New', Courier, monospace;
+  // font-weight: 400;
+  height: 100%;
+  // white-space: nowrap;
+  margin-left: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  .line:hover {
+    background-color: #ddd;
+  }
+  .grey {
+    background-color: #ccc;
+  }
+  .yellow {
+    background-color: #ffe699;
+  }
+  .skyblue {
+    background-color: skyblue !important;
+  }
+  .lineNum {
+    color: #999;
+  }
+  .anchor {
+    margin: 3px auto;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  .normal {
+    background-color: #f5f5dc;
+  }
+  table {
+    border-collapse: collapse;
+    // word-break: break-all;
+  }
+  td {
+    padding: 0;
+  }
+  .td1 {
+    position: sticky;
+    left: 0;
+    vertical-align: top;
+    text-align: right;
+    // background-color: #f5f5f5;
+    white-space: nowrap;
+    background-color: #e4e4e4;
+    user-select: none;
+  }
+  .bar {
+    width: 16px;
+    height: 16px;
+    // background-color: #f5f5dc;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.highlights {
+  padding: 10px 15px;
+  // margin: 10px 15px;
+  // margin-top: 10px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  .ant-input-group-addon {
+    padding: 0 !important;
+    border: none;
+    overflow: hidden;
+  }
+  // .delBu {
+  //   font-size: 40px;
+  // }
+}
+
+.slider {
+  float: right;
+  width: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .sliderBar {
+    margin: 8px 0px;
+    width: 100%;
+    flex-grow: 1;
+    .ant-slider-rail {
+      background-color: #f1f1f1;
+      display: none;
+    }
+
+    .ant-slider-track {
+      display: none;
+    }
+
+    .ant-slider-step {
+      display: none;
+    }
+
+    .ant-slider-handle {
+      background-color: #a8a8a8 !important;
+      width: 100%;
+      height: 20px;
+      left: 0 !important;
+      &::before {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+.presetsInput {
+  .clear {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #124191;
+    margin-top: 5px;
+    cursor: pointer;
+    &:hover {
+      color: #337ab7;
+    }
+  }
+}
+
+.presetsSelector {
+  .label {
+    float: left;
+    width: calc(100% - 14px);
+  }
+  .del:hover {
+    color: red;
+  }
+}
+
+.tools {
+  margin-top: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px #d9d9d9 solid;
+}
+.absolute {
+  position: absolute;
+  width: 500px;
+  top: 20px;
+  left: 50%;
+  margin-left: -250px;
+  .ant-card-head {
+    background-color: #e8f9f0;
+  }
+}
+
+.mAuto {
+  margin: auto;
+}
+
+.fixed {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  .bookBtn:hover {
+    cursor: pointer;
+  }
+}
+// .ant-message-notice-content {
+//   background-color: #fff !important;
+//   .ant-message-custom-content {
+//     font-size: 16px;
+//     .anticon {
+//       margin-bottom: 5px;
+//     }
+//   }
+// }
+.iconDisable {
+  pointer-events: none;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+
+.green {
+  background-color: #9bff9b;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "logbrowser_lite",
+  "version": "1.1.2",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cd frontend && npm run dev --max-old-space-size=4096",
+    "build": "npm run build1 && npm run build2",
+    "build1": "cd frontend && npm run build",
+    "build2": "electron-builder",
+    "start": "electron . --max-old-space-size=4096"
+  },
+  "author": "yong",
+  "license": "ISC",
+  "description": "yong logbrowser lite",
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0"
+  },
+  "build": {
+    "productName": "LogBrowserLite",
+    "appId": "yong.LogBrowserLite",
+    "files": [
+      "!frontend/*"
+    ],
+    "win": {
+      "icon": "./logo/logo512.png",
+      "publish": [
+        {
+          "provider": "generic",
+          "url": "http://10.57.211.34:8080/update/win64",
+          "useMultipleRangeRequest": false
+        }
+      ]
+    },
+    "nsis": {
+      "shortcutName": "Log Browser Lite",
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}

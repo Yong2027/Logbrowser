@@ -1,0 +1,26 @@
+export const MAX_FILTERS = 8
+export const MAX_FILTER_ITEMS = 8
+export const MAX_HIGHLIGHT = 12
+export const MAX_TABS = 16
+export const MAX_FILES_SIZE = 20000
+export const MAX_BOOKMARKS = 10
+export const MAX_BOOKMARK_ITEMS = 16
+export const MAX_PRESETS = 10
+export const MAX_FILES = 128
+export const MAX_RECENT_FILES = 8
+export const VERSION = '2.0.1'
+export const GOTO_OFFSET = 20
+export const GOTO_OFFSET_WRAP = 10
+export const MAX_BOOKMARK_TITLE = 100
+export const EXTENSION_NAMES = ['.log', '.LOG']
+export const DEFAULT_FONT_SIZE = 14
+export const MAX_FONT_SIZE = 30
+export const MIN_FONT_SIZE = 10
+
+export const lb_wrap = 'lb_wrap'
+export const lb_trim = 'lb_trim'
+export const lb_lineNum = 'lb_lineNum'
+export const lb_lineSort = 'lb_lineSort'
+export const lb_presets = 'lb_presets_v2'
+export const lb_recent = 'lb_recent_v1'
+export const lb_fontsize = 'lb_fontsize'
